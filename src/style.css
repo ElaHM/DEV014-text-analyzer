@@ -1,0 +1,65 @@
+header {
+    color: rgb(66, 116, 97); 
+}
+
+h1 {
+    
+    text-align: center;
+}
+
+footer {
+    color: chocolate;
+    text-align: center;
+}
+
+/*.item1{
+    font-size: 16pt;
+    color: darkcyan;
+}*/
+.item1 {
+    
+    border: 1px solid #98cabf;
+    padding: 1px;
+    margin: 10px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    
+    width: 229px;
+    height: auto;
+    
+    /*display: inline-block;*/
+    /*display: flex;*/
+    border-radius: 10px;
+    margin: 0 auto;
+    
+    
+
+    /*max-width: 2000px;
+    border-style: solid;*/
+    
+    
+
+    list-style-type: none;
+}
+
+textarea[name="user-input"] {
+    background-color: rgb(231, 248, 239);
+    border-color: #5cf1d1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+}
+
+#reset-button {
+    color:brown;
+    padding: 10px;
+    border: none;
+    margin: 0 auto;
+    display: block;
+}
+
+::placeholder {
+    color: rgb(131, 172, 172);
+}

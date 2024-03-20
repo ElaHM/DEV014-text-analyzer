@@ -8,6 +8,41 @@
 </head>
 
 <body>
+  <header>
+    <h1>Analizador de texto</h1>
+  </header>
+
+
+  <div>
+
+    <form>
+      <textarea name="user-input" placeholder="Ingrese el texto..."></textarea>
+      <div>
+        <ul>
+          <li class="item1" data-testid="word-count">Palabras:</li>
+          <li class="item1" data-testid="character-count">Caracteres:</li>
+          <li class="item1"data-testid="character-no-spaces-count">Caracteres excluyendo espacios y signos de puntuación:</li>
+          <li class="item1" data-testid="number-count">Números:</li>
+          <li class="item1" data-testid="number-sum">Suma total de números:</li>
+          <li class="item1" data-testid="word-length-average">Longitud media de las palabras:</li>
+        </ul>
+      </div>
+
+    </form>
+
+  </div>
+
+  <br>
+
+  <div>
+    <button id="reset-button">Limpiar métricas</button>
+  </div>
+
+  <footer>
+    <p>@Angela H. Mantari</p>
+  </footer>
+
   <script src="index.js" type="module"></script>
 </body>
+
 </html>
