@@ -16,6 +16,10 @@ footer {
     font-size: 16pt;
     color: darkcyan;
 }*/
+
+ul{
+
+}
 .item1 {
     
     border: 1px solid #98cabf;
@@ -44,6 +48,7 @@ footer {
 }
 
 textarea[name="user-input"] {
+    
     background-color: rgb(231, 248, 239);
     border-color: #5cf1d1;
     display: block;
