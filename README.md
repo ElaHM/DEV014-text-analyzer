@@ -3,6 +3,8 @@
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
+* [2. Tecnologías usadas](#2-tecnologías-usadas)
+* [3. Descripción](#3-descripción)
 
 ***
 
@@ -13,24 +15,22 @@
 _Credito: Foto de [ethan](https://unsplash.com/fr/@andallthings?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 _en [Unsplash](https://unsplash.com/es/fotos/72NpWZJOskU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 
-Un analizador de texto es una aplicación para extraer información útil de un
-texto utilizando diversas técnicas, como el procesamiento del lenguaje
-natural (NLP), el aprendizaje automático (ML) y el análisis estadístico.
-Estas aplicaciones pueden proporcionar una variedad de métricas que brindan
-información básica sobre la longitud y la estructura del texto como por
-ejemplo, el conteo de palabras, el conteo de caracteres, el conteo de
-oraciones y el conteo de párrafos. Otras métricas incluyen el análisis
-de sentimientos, que utiliza técnicas de NLP para determinar el tono
-general positivo, negativo o neutral del texto, y el análisis de
-legibilidad, que utiliza algoritmos para evaluar la complejidad y la
-legibilidad del texto.
+Un analizador de texto es una aplicación que ofrece una variedad de métricas útiles
+que proporcionan información sobre la longitud y estructura del contenido
+escrito. Al procesar un texto, el analizador puede contar por ejemplo el número de caracteres, palabras, oraciones y números.
+Todo esto ayuda a los usuarios tener una comprensión más profunda de sus textos.
 
-En general, las aplicaciones de análisis de texto brindan información
-valiosa y métricas sobre los textos que pueden ayudar a las usuarias a
-tomar decisiones informadas y sacar conclusiones significativas.
-Mediante el uso de estas herramientas de análisis, las usuarias pueden
-obtener una comprensión más profunda de los textos.
 
-## Anecdotas
+## 2. Tecnologías usadas
+ * HTML5
+ * CSS
+ * Javascript
 
-## Resultados
+## 3. Descripción
+
+* Palabras: Permite retornar el recuento total de palabras que se encuentran en el cuadro texto. 
+* Caracteres: Retorna el recuento de caracteres.
+* Caracteres excluyendo espacios y signos de puntuación: Como su nombre lo indica, devuelve el conteo de caracteres omitiendo los espacios y signos de puntuación.
+* Números: Muestra el conteo total de números.
+* Suma total de números: Devuelve el resultado de la suma de las cantidades numéricas.
+* Longitud media de las palabras: Retorna la longitud promedio de laa palabras escritas en el texto.
