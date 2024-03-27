@@ -95,7 +95,7 @@ const analyzer = {
       console.log(acum)
     }
     const promedio = acum / totalPalabras
-    console.log (promedio)
+    console.log(promedio)
     //return promedio;
     const promedioRedondeado = Math.round(promedio*100) / 100;
     console.log(promedioRedondeado);

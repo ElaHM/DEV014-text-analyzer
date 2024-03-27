@@ -1,15 +1,22 @@
 header {
-    color: rgb(66, 116, 97); 
+    color: rgb(220, 101, 224); 
 }
 
 h1 {
     
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(5, 31, 36);
+    color: #462955;
 }
 
 footer {
-    color: chocolate;
+    color: rgb(24, 80, 82);
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /*.item1{
@@ -18,13 +25,20 @@ footer {
 }*/
 
 ul{
+    
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
 
 }
 .item1 {
     
-    border: 1px solid #98cabf;
+    border: 1px solid #a488ac;
     padding: 1px;
-    margin: 10px;
+    margin: 5px;
+    /*margin: 10px;*/
     border-left-width: 2px;
     border-right-width: 2px;
     border-top-width: 2px;
@@ -35,7 +49,7 @@ ul{
     /*display: inline-block;*/
     /*display: flex;*/
     border-radius: 10px;
-    margin: 0 auto;
+    
     
     
 
@@ -45,24 +59,29 @@ ul{
     
 
     list-style-type: none;
+    background-color: rgb(164, 190, 194)
+    
 }
 
 textarea[name="user-input"] {
     
     background-color: rgb(231, 248, 239);
-    border-color: #5cf1d1;
+    border-color: #e813f3;
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 100px;
+    width: 400px;
 }
 
 #reset-button {
-    color:brown;
+    background-color: rgb(36, 88, 97);
+    color:rgb(242, 64, 248);
     padding: 10px;
     border: none;
     margin: 0 auto;
     display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 ::placeholder {
